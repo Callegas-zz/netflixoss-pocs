@@ -1,0 +1,4 @@
+rootProject.name = 'spring-cloud-netflix-eureka-example'
+include 'server'
+include 'client'
+
