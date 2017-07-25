@@ -1,0 +1,5 @@
+rootProject.name = 'netflixoss-storage-poc'
+include 'book-storage-service'
+include 'vinyl-disc-storage-service '
+include 'full-storage-service'
+
