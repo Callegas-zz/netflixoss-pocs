@@ -1,0 +1,16 @@
+group 'callegasdev'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.netflix.feign', name: 'feign-jaxrs', version: '8.18.0'
+    compile group: 'com.netflix.feign', name: 'feign-jackson', version: '8.18.0'
+}
